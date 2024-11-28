@@ -1,0 +1,110 @@
+body {
+    font-family: 'Manropet', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 375px;
+    height: 667px;
+    padding: 120px 16px 200px 16px;
+    background-color: #202733;
+}
+.header{
+    width: 343px;
+    height: 347px;
+    margin-top: 120px;
+    margin-left: 16px;
+}
+.bodyIn{
+    width: 343px;
+    height: 315px;
+    border-radius: 10px;
+    background-color: #313A48;
+}
+.bodyIn p{
+    margin: 0px 120px;
+    padding-top: 40px;
+    font-size: 11px;
+    font-weight: 800;
+    text-align: center;
+    color: #53FFAA;
+}
+.resim1{
+    width: 295px;
+    height: 16px;
+    margin: 0px 24px;
+}
+.resim2{
+    display: none;
+}
+.btn{
+    width: 64px;
+    height: 64px;
+    margin: 32px 140px;
+    border-radius: 36px;
+    border: none;
+    background-color: #53FFAA;
+}
+.btn img{
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+}
+.li{
+    width: 295px;
+    height: 132px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    letter-spacing: -0.26px;
+    text-align: center;
+    margin: 24px -16px;
+    color: #CEE3E9;
+    list-style-type: none;
+}
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 1440px;
+        height: 810px;
+        padding: 223px 450px 223px 450px;
+    }
+    .header{
+        width: 540px;
+        height: 364px;
+        margin: 223px 450px;
+    }
+    .bodyIn{
+        width: 540px;
+        height: 332px;
+        border-radius: 15px;
+    }
+    .bodyIn p{
+        width: 122px;
+        height: 18px;
+        padding: 55px 95.5px;
+        font-size: 19px;
+    }
+    .li{
+        width: 444px;
+        height: 114px;
+        margin: -44px 8px;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 38.25px;
+        letter-spacing: -0.30px;
+        text-align: center;
+    }
+    .resim1{
+        display: none;
+    }
+    .resim2{
+        display: block;
+        margin: 80px 50px 0px;
+    }
+    .btn{
+        width: 64px;
+        height: 64px;
+        margin: 32px 238px;
+    }
+}
